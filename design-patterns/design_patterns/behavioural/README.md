@@ -1,6 +1,8 @@
 # Behavioral Design Patterns
 
-    Manage object interactions and communication while keeping objects loosely coupled and responsibilities well-distributed.
+
+
+Manage object interactions and communication while keeping objects loosely coupled and responsibilities well-distributed.
 
 Step-by-Step Pattern Guide:
 
@@ -22,4 +24,5 @@ Behavioral Pattern Relationships:
 - Observer vs Mediator: Both handle communication, but Observer is one-to-many notification, while Mediator centralizes communication
 - Strategy vs State: Both use delegation, but Strategy changes algorithms, while State changes behavior
 - Command vs Chain of Responsibility: Both handle requests, but Command encapsulates requests, while Chain routes them through handlers
+
 
