@@ -7,9 +7,12 @@ Behavioral Patterns:
 2. Template Method – defining game flow steps.
 
 Creational Patterns:
+
 3. Builder – constructing custom computers.
 4. Singleton – ensuring a single shared instance (e.g., logger).
 
 Structural Patterns:
+
 5. Adapter – playing multiple media formats.
 6. Decorator – adding features to coffee orders dynamically.
+
