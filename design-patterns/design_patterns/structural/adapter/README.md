@@ -1,6 +1,8 @@
 # Adapter
 
-    - "Make incompatible interfaces work together by creating a bridge between them."
+
+
+Make incompatible interfaces work together by creating a bridge between them.
 
 
 Code Flow Explanation:
@@ -73,4 +75,5 @@ Key Takeaways:
 3. Client Isolation: Client code doesn't need to know about the adapted class
 4. Extensibility: Easy to add new adapters for different interfaces
 5. Legacy Integration: Perfect for integrating existing systems with new code
+
 
