@@ -1,6 +1,8 @@
 # Builder
 
-    - "Build an object step by step, and get the final product at the end."
+
+
+Build an object step by step, and get the final product at the end.
 
 Code Flow Explanation:
 
@@ -57,4 +59,5 @@ Key Takeaways:
 2. Default Values: Unspecified parameters get sensible defaults
 3. Flexibility: Can create objects with any combination of parameters
 4. Readability: Code is self-documenting and easy to understand
+
 5. Maintainability: Easy to add new parameters or change defaults
