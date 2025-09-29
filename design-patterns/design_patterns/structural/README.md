@@ -1,6 +1,8 @@
 # Structural Design Patterns
 
-    - "Organize code into larger structures while keeping it flexible and efficient through object composition."
+
+
+Organize code into larger structures while keeping it flexible and efficient through object composition.
 
 
 Step-by-Step Pattern Guide:
@@ -24,4 +26,5 @@ Structural Pattern Relationships:
 - Adapter vs Bridge: Both deal with interfaces, but Adapter makes incompatible interfaces work together, while Bridge separates abstraction from implementation
 - Decorator vs Proxy: Both wrap objects, but Decorator adds behavior, while Proxy controls access
 - Composite vs Decorator: Both use composition, but Composite builds tree structures, while Decorator adds functionality
+
 
