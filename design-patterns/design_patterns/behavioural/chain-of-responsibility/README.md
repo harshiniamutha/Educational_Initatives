@@ -1,6 +1,8 @@
 # Chain of Responsibility
 
-    - "Pass requests along a chain of handlers until one of them handles the request, avoiding coupling between sender and receiver."
+
+
+Pass requests along a chain of handlers until one of them handles the request, avoiding coupling between sender and receiver.
 
 
 Code Flow Explanation:
@@ -85,5 +87,6 @@ Key Takeaways:
 3. Handler Decision: Each handler decides if it can process the request
 4. Loose Coupling: Sender doesn't know which handler will process
 5. Dynamic Chain: Chain can be modified at runtime
+
 
 
