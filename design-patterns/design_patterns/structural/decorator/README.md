@@ -1,6 +1,8 @@
 # Decorator
 
-    - "Add new behavior to objects dynamically by wrapping them with decorator objects."
+
+
+Add new behavior to objects dynamically by wrapping them with decorator objects.
 
 Code Flow Explanation:
 
@@ -85,5 +87,6 @@ Key Takeaways:
 3. Chainable Decorators: Multiple decorators can be applied in sequence
 4. Open/Closed Principle: Open for extension, closed for modification
 5. Single Responsibility: Each decorator adds one specific behavior
+
 
 
