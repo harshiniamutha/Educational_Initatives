@@ -1,6 +1,9 @@
 # Template Method
 
-    - "Define the skeleton of an algorithm in a method, deferring some steps to subclasses."
+
+
+Define the skeleton of an algorithm in a method, deferring some steps to subclasses.
+
 
 Code Flow Explanation:
 
@@ -53,5 +56,6 @@ Key Takeaways:
 3. Consistent Flow: All implementations follow the same order
 4. Code Reuse: Common logic is shared in the template
 5. Easy Extension: New implementations only need to implement specific steps
+
 
 
