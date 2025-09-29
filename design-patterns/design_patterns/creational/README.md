@@ -1,6 +1,7 @@
 # Creational Design Patterns 
 
-     “Encapsulate the creation logic to make systems more flexible and decoupled from specific implementations.”
+
+Encapsulate the creation logic to make systems more flexible and decoupled from specific implementations.
 
 Step-by-Step Pattern Guide:
 
@@ -29,5 +30,6 @@ Creational Pattern Relationships
      -Builder vs Factory: Both create objects, but Builder constructs step-by-step with flexibility, while Factory just returns a new instance.
 
      -Singleton vs Prototype: Singleton restricts to one instance, Prototype creates new objects by cloning an existing one.
+
 
      -Builder vs Singleton: Builder focuses on flexible object construction, while Singleton ensures only one instance exists.
