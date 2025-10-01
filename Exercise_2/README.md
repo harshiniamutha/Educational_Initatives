@@ -163,7 +163,7 @@ Oct 01, 2025 2:04:25 PM AutoGrading grade
 INFO: Auto-graded submission 8addcf87-e590-43c8-8caa-559aa86ffc80 for student S001: 11
 Submission auto-graded. Score: 11
 
-
+```
 
 Design Patterns Implemented:
 
