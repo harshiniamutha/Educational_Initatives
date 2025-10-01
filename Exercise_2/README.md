@@ -9,7 +9,7 @@ Class Diagram:
 
  
 <p align="center">
-  <img src="docs/1_Class_Diagram.png" alt="UML Class Diagram of Virtual Classroom Manager" width="700"/>
+  <img src="1_Class_Diagram.png" alt="UML Class Diagram of Virtual Classroom Manager" width="700"/>
 </p>
 
 
