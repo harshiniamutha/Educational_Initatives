@@ -9,6 +9,12 @@ Code Flow Explanation:
 
 This example demonstrates a game system where different games (Cricket, Football) follow the same template (initialize, start, end) but implement each step differently.
 
+Class Diagram:
+<p align="center">
+  <img src="class_diagram_template.png" alt="UML Class Diagram " width="700"/>
+</p>
+
+
 Step-by-Step Code Flow:
 
 1. Game Abstract Class (Game.java)
@@ -56,6 +62,7 @@ Key Takeaways:
 3. Consistent Flow: All implementations follow the same order
 4. Code Reuse: Common logic is shared in the template
 5. Easy Extension: New implementations only need to implement specific steps
+
 
 
 
