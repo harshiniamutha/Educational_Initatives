@@ -8,6 +8,12 @@ Code Flow Explanation:
 
 This example demonstrates building different types of computers using the Builder pattern. Instead of having multiple constructors for different computer configurations, we use a single ComputerBuilder that can create computers with any combination of specifications.
 
+Class Diagram:
+<p align="center">
+  <img src="class_diagram_Builder.png" alt="UML Class Diagram " width="700"/>
+</p>
+
+
 Step-by-Step Code Flow:
 
 1. Computer Class (Computer.java)
@@ -61,3 +67,4 @@ Key Takeaways:
 4. Readability: Code is self-documenting and easy to understand
 
 5. Maintainability: Easy to add new parameters or change defaults
+
