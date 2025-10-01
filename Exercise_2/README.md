@@ -79,9 +79,9 @@ The execution flow of the Virtual Classroom Manager is as follows:
 
 - Two strategies exist:
 
-         - AutoGrading → Assigns a grade immediately.
+    - AutoGrading → Assigns a grade immediately.
 
-         - TeacherReview → Marks submission as pending teacher review.
+    - TeacherReview → Marks submission as pending teacher review.
 
 8.Error Handling:
 
@@ -100,17 +100,24 @@ Expected OUTPUT:
 6. Schedule Assignment
 7. Submit Assignment
 0. Exit
-Choose:1
+
+
+
+```text
+Choose: 1
 Classroom name: Math101
 Classroom [Math101] has been created.
+
 Choose: 2
 Classrooms:
 - Math101
+
 Choose: 3
 Classroom name: Math101
 Oct 01, 2025 1:58:49 PM VirtualClassroomManager removeClassroom
 INFO: Classroom [Math101] removed.
 Classroom [Math101] removed.
+
 Choose: 4
 Classroom name: Math101
 Student ID: S001
@@ -118,10 +125,12 @@ Student Name: Harshini
 Oct 01, 2025 2:00:18 PM Classroom addStudent
 INFO: Student [S001] has been enrolled in [Math101].
 Student [S001] has been enrolled in [Math101].
+
 Choose: 5
 Classroom name: Math101
 Students in Math101:
 - S001 - Harshini
+
 Choose: 6
 Classroom name: Math101
 Assignment type (QUIZ/HOMEWORK/PROJECT): QUIZ
@@ -131,16 +140,15 @@ Due date (YYYY-MM-DD): 2025-10-02
 Grading (AUTO/TEACHER): AUTO
 
 Oct 01, 2025 2:02:41 PM Classroom scheduleAssignment
-
 INFO: Assignment scheduled for [Math101]: Linear Algebra
 Assignment scheduled for [Math101].
 
 Notification to Student [S001]: New assignment: Linear Algebra in classroom Math101
 Oct 01, 2025 2:02:41 PM Student update
-
 INFO: Notification to Student [S001]: New assignment: Linear Algebra in classroom Math101
 
 Assignment scheduled for Math101 with ID: 8addcf87-e590-43c8-8caa-559aa86ffc80
+
 Choose: 7
 Classroom name: Math101
 Student ID: S001
@@ -149,10 +157,9 @@ Submission content: answers.png
 
 Assignment submitted by Student [S001] in [Math101].
 Oct 01, 2025 2:04:25 PM Student submitAssignment
-
 INFO: Assignment submitted by Student [S001] in [Math101], assignment: 8addcf87-e590-43c8-8caa-559aa86ffc80
-Oct 01, 2025 2:04:25 PM AutoGrading grade
 
+Oct 01, 2025 2:04:25 PM AutoGrading grade
 INFO: Auto-graded submission 8addcf87-e590-43c8-8caa-559aa86ffc80 for student S001: 11
 Submission auto-graded. Score: 11
 
