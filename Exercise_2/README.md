@@ -6,7 +6,12 @@ this coding exercise and demonstrates Object-Oriented Programming (OOP), SOLID p
 
 Class Diagram:
  class diagram illustrates the overall architecture of the Virtual Classroom Manager and highlights the relationships and responsibilities of each class.
- ![Class Diagram](/1_Class_Diagram.png)
+
+ 
+<p align="center">
+  <img src="docs/1_Class_Diagram.png" alt="UML Class Diagram of Virtual Classroom Manager" width="700"/>
+</p>
+
 
 
 Features:
