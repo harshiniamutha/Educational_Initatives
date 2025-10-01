@@ -9,6 +9,12 @@ Code Flow Explanation:
 
 This example demonstrates how to use the Chain of Responsibility pattern for a technical support system. Support requests are passed through different levels of support staff (Level 1, Level 2, Level 3) based on their priority, with each level deciding whether it can handle the request or pass it along.
 
+class Diagram :
+<p align="center">
+  <img src="class_diagram_chainofresp.png" alt="UML Class Diagram " width="700"/>
+</p>
+
+
 Step-by-Step Code Flow:
 
 1. SupportRequest Class (SupportRequest.java)
@@ -87,6 +93,7 @@ Key Takeaways:
 3. Handler Decision: Each handler decides if it can process the request
 4. Loose Coupling: Sender doesn't know which handler will process
 5. Dynamic Chain: Chain can be modified at runtime
+
 
 
 
